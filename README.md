@@ -50,5 +50,20 @@ This repository is about basics of react-native permissions.
   <img src="images/S8.png" width="250">
   </div>
   
+  
+   ###  Updated Changes 
+<div align="center">
+  <img src="images/S9.png" width="250">
+  </div>
+  
+
+<div align="center">
+  <img src="images/S10.png" width="250">
+  </div>
+  
+
+<div align="center">
+  <img src="images/S11.png" width="250">
+  </div>
 
 Created by Bhawna Verma.
