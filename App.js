@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View,Text,Button} from 'react-native';
+import {View,Text,StyleSheet,Button} from 'react-native';
 import { Permission, PERMISSION_TYPE } from './src/AppPermission';
 
 export default class App extends Component {
@@ -17,12 +17,10 @@ export default class App extends Component {
 
 render( ) {
   return (
-   
-    <View style={{ justifyContent:'center', alignItems:'center'}}>
+   <View style={{ justifyContent:'center', alignItems:'center'}}>
       <Text style={{fontSize:30}}>
       React Native Permission {'\n'}
       </Text>
-      <View style={{backgroundColor:'#524A4E'}}>
       <Button title="Record Audio" onPress={this.checkPermission}/><Text>{'\n'}</Text>
       <Button title="Calendar" onPress={this.checkPermission}/><Text>{'\n'}</Text>
       <Button title="Contact" onPress={this.checkPermission}/><Text>{'\n'}</Text>
@@ -32,11 +30,10 @@ render( ) {
       <Button title="Write External Storage" onPress={this.checkPermission}/><Text>{'\n'}</Text>
       <Button title="Camera" onPress={this.checkPermission}/>
       </View >
-      </View>
       
     )
   }
 }
- 
-     
+  
+
 
