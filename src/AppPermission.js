@@ -97,7 +97,7 @@ class AppPermission {
 
 
 
-    requestMultiple = async (types): Promise<boolean> => {
+  /*  requestMultiple = async (types): Promise<boolean> => {
               console.log("AppPermission requestMultiple types:", types)
               const results =[]
               for (const type of types) {
@@ -115,9 +115,9 @@ class AppPermission {
     return true
         }
     }
-
-
+*/
+}
        
         
-const Permission = new AppPermission()
+const Permission = new AppPermission ()
 export {Permission,PERMISSION_TYPE}
